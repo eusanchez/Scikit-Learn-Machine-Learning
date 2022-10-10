@@ -31,10 +31,10 @@ prediction = LR.predict(x_test.values.reshape(-1,1))
 
 
 #Plot prediction line against actual test data
-#plt.plot(x_test, prediction, label= 'Linear Regression', color='b')
-#plt.scatter(x_test, y_test, label='Actual Test Data', color='g', alpha=.7)
-#plt.legend()
-#plt.show()
+plt.plot(x_test, prediction, label= 'Linear Regression', color='b')
+plt.scatter(x_test, y_test, label='Actual Test Data', color='g', alpha=.7)
+plt.legend()
+plt.show()
 
 
 
